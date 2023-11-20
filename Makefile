@@ -39,8 +39,8 @@ check:
 	ruff check .
 	black --check .
 
-run-example:
-	python example/main.py
+run-docs:
+	python docs/main.py
 
 ## Build using pip-tools
 build:
