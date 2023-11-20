@@ -144,7 +144,6 @@ def get_layout(
 ):
     app = get_app()
 
-    print(theme)
     return dmc.MantineProvider(
         id="mantine-theme-provider",
         theme={
